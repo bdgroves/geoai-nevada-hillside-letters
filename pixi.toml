@@ -1,0 +1,17 @@
+[project]
+name = "geoai-rockletters"
+version = "0.1.0"
+channels = ["pytorch", "nvidia", "conda-forge"]
+
+[dependencies]
+python = "3.10.*"
+pytorch = "*"
+torchvision = "*"
+torchaudio = "*"
+pytorch-cuda = "12.1.*"
+geopandas = "*"
+rasterio = "*"
+scikit-learn = "*"
+matplotlib = "*"
+jupyter = "*"
+tqdm = "*"
